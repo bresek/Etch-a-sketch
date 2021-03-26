@@ -1,8 +1,23 @@
 body{
   text-align: center;
+  background-color: #eabf9f;
+  font-family: 'Indie Flower', cursive;
+}
+
+button{
+  font-family: 'Indie Flower', cursive;
+  background-color: #1e212d;
+  color: #faf3e0;
+  margin: 1rem;
+  border: none;
+}
+button:hover{
+  color: #1e212d;
+  background-color: #faf3e0;
 }
 
 .container{
+  background-color: #faf3e0;
   margin:auto;
   display: grid;
   grid-template-columns: repeat(16,1fr);
@@ -13,5 +28,12 @@ body{
 
 div{
   border-style: solid;
+  border-color: #1e212d;
   border-width: .01px;
+}
+
+footer{
+  margin:0;
+  width: 100%;
+  padding-top: 2rem;
 }
