@@ -3,12 +3,15 @@ body{
 }
 
 .container{
-  margin: 2rem;
+  margin:auto;
   display: grid;
   grid-template-columns: repeat(16,1fr);
   justify-content: center;
+  width:80vw;
+  height: 75vh;
 }
 
 div{
   border-style: solid;
+  border-width: .01px;
 }
